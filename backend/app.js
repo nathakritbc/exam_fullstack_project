@@ -43,6 +43,9 @@ const setStringHdp = (num) => {
 };
 
 // debug ข้อที่ 1
+console.log(
+  "============================================= ข้อที่ 1 ================================================================="
+);
 console.log(setStringHdp(0));
 console.log(setStringHdp(1));
 console.log(setStringHdp(2));
@@ -74,5 +77,8 @@ const printFileData = (filePath) => {
 };
 
 // debug ข้อที่ 2
-// const filePath = path.join(__dirname, "./data/textFile.txt");
-// printFileData(filePath);
+console.log(
+  "============================================= ข้อที่ 2 ================================================================="
+);
+const filePath = path.join(__dirname, "./data/textFile.txt");
+printFileData(filePath);
